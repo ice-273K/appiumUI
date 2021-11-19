@@ -1,0 +1,29 @@
+#各种连接信息
+
+
+#Redis连接信息
+Redis:
+  host : xx
+  port : xx
+  db : x
+  key_LOGIN : xx
+  key_FORGET_PASSWORD : xx
+  key_SINGN_UP : xx
+
+#MySql连接信息及数据库信息
+MySql:
+  host : xxx
+  port : xxx
+  user : xxx
+  password : xxx
+  database_name :
+    - xx
+    - xx
+
+#AndroidClient配置信息
+AndroidClient:
+  platformName : "Android"
+  deviceName : "MI 9 transport_id:1"
+  appPackage : xxx
+  newCommandTimeout : 120
+  apk : xxx

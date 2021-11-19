@@ -1,0 +1,41 @@
+#测试数据
+
+#InstallApp测试数据
+InstallApp:
+  qqbtn : "QQ"
+
+#StartApp测试数据
+StartApp:
+  qqbtn : "QQ"
+  agreebtn : "同意"
+  rejecttn : "暂不使用按钮"
+
+
+#LoginApp测试数据
+LoginApp:
+  startApp : xx
+  et_phone_num : xx
+  et_password : xx
+  btn_login : xx
+
+
+#LoginByWechat测试数据
+LoginByWechat:
+  startApp : xx
+  iv_wechat : xx
+
+#LoginByCode测试数据
+LoginByCode:
+  startApp : xx
+  iv_phone : xx
+  et_phone_num : xx
+
+#ForgetPassword测试
+ForgetPassword:
+  startApp : xx
+  tv_forget_password : xx
+  et_phone_num : xx
+
+#Register测试
+Register:
+  startApp : xx
