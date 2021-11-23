@@ -31,12 +31,13 @@ class OperateMySql():
         cursor = conn.cursor()
         cursor.execute(sql)
         results = cursor.fetchall()
+        conn.close()        #关闭数据库连接
         return results
 
 # a = OperateMySql()
 # # b = a.Connect_Mysql(0)
 # sql = "SELECT mobile FROM sys_user WHERE mobile = '18091681804' "
 # c = a.Select_Mysql(sql,0)
-# cv = c.__str__()
+# # cv = c.__str__()
 # print(c)
 # print(cv)

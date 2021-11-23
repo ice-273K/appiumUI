@@ -6,7 +6,7 @@
 
 import os
 import yaml
-
+# from ruamel import yaml
 class ReadTestdata():
     @classmethod
     def readtestdata_01(cls):
@@ -14,6 +14,7 @@ class ReadTestdata():
         yaml_file = os.path.join(path,"testdata01.yaml")
         with open(yaml_file,'r',encoding='utf-8',errors='ignore') as f:
             testdata_01 = yaml.safe_load(f)
+            # print('testdata_01aa')
             return testdata_01
 
     @classmethod

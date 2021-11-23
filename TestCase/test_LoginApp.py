@@ -32,31 +32,31 @@ class Test_LoginApp():
         s.btn_logout()
         s.btn_confirm()
 
-    # # 手机号错误
-    # def test_wrong_phone(self):
-    #     s = LoginApp()
-    #     s.startApp()
-    #     s.et_phone_num()
-    #     s.sendPhoneW()
-    #     s.sendPsw()
-    #     s.btn_login()
-    #     text = "请输入正确手机号"
-    #     t = s.toast(self.testdata['Toastxpath'],"text")
-    #     assert t == text
-    #
-    # # 密码格式错误
-    # def test_wrong_password(self):
-    #     s = LoginApp()
-    #     s.startApp()
-    #     s.et_phone_num()
-    #     s.sendPhone()
-    #     s.sendPswW()
-    #     s.btn_login()
-    #     text = "请输入正确密码格式"
-    #     t = s.toast(self.testdata['Toastxpath'],"text")
-    #     assert t == text
-    #
-    # #手机号不存在
+    # 手机号错误
+    def test_wrong_phone(self):
+        s = LoginApp()
+        s.startApp()
+        s.et_phone_num()
+        s.sendPhoneW()
+        s.sendPsw()
+        s.btn_login()
+        text = "请输入正确手机号"
+        t = s.toast(self.testdata['Toastxpath'],"text")
+        assert t == text
+
+    # 密码格式错误
+    def test_wrong_password(self):
+        s = LoginApp()
+        s.startApp()
+        s.et_phone_num()
+        s.sendPhone()
+        s.sendPswW()
+        s.btn_login()
+        text = "请输入正确密码格式"
+        t = s.toast(self.testdata['Toastxpath'],"text")
+        assert t == text
+
+    #手机号不存在（定位不到弹窗）
     # def test_wrong(self):
     #     s = LoginApp()
     #     s.startApp()
@@ -64,7 +64,7 @@ class Test_LoginApp():
     #     s.sendPhoneWA()
     #     s.sendPsw()
     #     s.btn_login()
-    #     text = "请输入正确密码格式"
+    #     text = "请输入正确手机号"
     #     t = s.toast(self.testdata['Toastxpath'],"text")
     #     assert t == text
 

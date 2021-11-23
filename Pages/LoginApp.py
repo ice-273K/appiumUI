@@ -83,6 +83,7 @@ class LoginApp(FindElement):
 
     #获取toast
     def toast(self,xpath,attribute):
+        self.waitAttriXpath(xpath)
         return self.getAttributeSingle(xpath,attribute)
 
 

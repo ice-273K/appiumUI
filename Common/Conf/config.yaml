@@ -3,12 +3,12 @@
 
 #Redis连接信息
 Redis:
-  host : xx
-  port : xx
-  db : x
-  key_LOGIN : xx
-  key_FORGET_PASSWORD : xx
-  key_SINGN_UP : xx
+  host : xxxx
+  port : xxxx
+  db : xxx
+  key_LOGIN : "xxxx:"
+  key_FORGET_PASSWORD : "xxxx:"
+  key_SINGN_UP : "xxx"
 
 #MySql连接信息及数据库信息
 MySql:
@@ -17,13 +17,13 @@ MySql:
   user : xxx
   password : xxx
   database_name :
-    - xx
-    - xx
+    - xxx
+    - xxx
 
 #AndroidClient配置信息
 AndroidClient:
   platformName : "Android"
   deviceName : "MI 9 transport_id:1"
-  appPackage : xxx
+  appPackage : "xxx"
   newCommandTimeout : 120
-  apk : xxx
+  apk : "xxx"

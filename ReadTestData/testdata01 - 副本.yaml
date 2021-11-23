@@ -1,0 +1,35 @@
+#测试数据
+
+#InstallApp测试数据
+InstallApp:
+  qqbtn : "QQ"
+
+#StartApp测试数据
+StartApp:
+  qqbtn : "QQ"
+  agreebtn : "同意"
+  rejecttn : "暂不使用按钮"
+  loginbtn : "com.tencent.mobileqq:id/btn_login"
+  loginact : "com.tencent.mobileqq:id/login"
+  newuserbtn : "com.tencent.mobileqq:id/btn_register"
+  waitlogin : "com.tencent.mobileqq:id/btn_login"
+  waitagree : "com.tencent.mobileqq:id/dialogRightBtn"
+  waitreject : "com.tencent.mobileqq:id/dialogLeftBtn"
+  xpathQQ : '//android.widget.EditText[@content-desc="请输入QQ号码或手机或邮箱"]'
+  xpathPW : '//android.widget.EditText[@content-desc="密码 安全"]'
+
+
+#LoginApp测试数据
+LoginApp:
+  startApp : "xxx"
+  et_phone_num : "xxx"
+  et_password : "xxx"
+  btn_login : "xxx"
+  sendPhone : "xxx"
+  sendPhoneW : "180"
+  sendPhoneWA : "xxx"
+  sendPsw : "xxx"
+  sendPswW : "123"
+  ll_user : "xxx"
+  btn_logout : "xxx"
+  btn_cancel : "xxx"

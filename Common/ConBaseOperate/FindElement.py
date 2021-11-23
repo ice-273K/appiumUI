@@ -128,6 +128,7 @@ class FindElement():
 
     #图形验证码_按屏幕比例进行拖拽
     def graph_getCode(self):
+        time.sleep(5)
         x1 = self.graph_getSize()[0] * 0.16
         x2 = self.graph_getSize()[0] * 0.71
         y1 = self.graph_getSize()[1] * 0.59
