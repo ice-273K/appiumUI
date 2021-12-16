@@ -1,0 +1,18 @@
+#测试数据
+
+#登录测试数据
+LoginApp:
+  startApp: XXX
+  et_phone_num: cXXX
+  et_password: XXX
+  btn_login: XXX
+  sendPhone: XXX
+  sendPhoneW: '180'
+  sendPhoneWA: XXX
+  sendPsw: XXX
+  sendPswW: '123'
+  ll_user: XXX
+  btn_logout: cXXX
+  btn_confirm: XXX11
+
+

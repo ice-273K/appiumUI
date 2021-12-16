@@ -1,0 +1,42 @@
+#各种连接信息
+
+
+#Redis连接信息
+Redis:
+  host : XXX
+  port : XXX
+  db : 1
+  key_LOGIN : "XXX:"
+  key_FORGET_PASSWORD : "XXX:"
+  key_SINGN_UP : "XXX:"
+
+#MySql连接信息及数据库信息
+MySql:
+  host : 1XXX
+  port : 3XXX
+  user : XXX
+  password : XXX
+  database_name :
+    - XXX
+    - XXX
+
+#AndroidClient配置信息
+AndroidClient:
+  platformName : "Android"
+  deviceName : "VOG-AL00 transport_id:3"
+  appPackage : "XXX"
+  newCommandTimeout : 120
+  apk : "XXX.apk"
+
+#appium命令
+Appium:
+  appium_start_ip : "127.0.0.1"
+  appium_start_appiumport : "XXX"
+  appium_start_emulatorport : "21503"
+  appium_stop : 'taskkill /F /IM node.exe /t'
+
+
+#模拟器命令
+Emulator:
+  emulator_start : 'memuc start -n MEmu'
+  emulator_stop : 'memuc stop -n MEmu'
